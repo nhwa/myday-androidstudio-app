@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language">
+        <item>한국어</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="language_value">
+        <item>ko</item>
+        <item>en</item>
+    </string-array>
+
+    <string-array name="action_list">
+        <item>10</item>
+        <item>20분</item>
+        <item>30분</item>
+        <item>40분</item>
+        <item>50분</item>
+        <item>60분</item>
+    </string-array>
+
+    <string-array name="action_values">
+        <item>10m</item>
+        <item>20m</item>
+        <item>30m</item>
+        <item>40m</item>
+        <item>50m</item>
+        <item>60m</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="갤러리"
+        android:id="@+id/gallery" />
+
+    <item android:title="카메라"
+        android:id="@+id/camera"/>
+
+    <item android:title="동영상"
+        android:id="@+id/movie"/>
+
+    <item android:title="그리기"
+        android:id="@+id/draw"/>
+
+</menu>

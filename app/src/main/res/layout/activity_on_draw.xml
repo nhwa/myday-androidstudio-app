@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".WorkActivity"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <!--            추후 이미지 바꾸기-->
+        <Button
+            android:id="@+id/cancel_btn"
+            android:text="취소"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:layout_gravity="left"
+            android:layout_marginRight="150dp"
+            android:background="#00ff0000"/>
+
+        <ImageButton
+            android:id="@+id/back_draw_btn"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="#00ff0000"
+            android:padding="5dp"
+            android:src="@drawable/back"
+            android:scaleType="fitCenter"/>
+
+        <ImageButton
+            android:id="@+id/front_draw_btn"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="#00ff0000"
+            android:padding="5dp"
+            android:src="@drawable/front"
+            android:scaleType="fitCenter"/>
+
+
+        <Button
+            android:id="@+id/complete_btn"
+            android:text="완료"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:layout_gravity="right"
+            android:background="#00ff0000" />
+
+
+    </LinearLayout>
+
+    <!--    점선표시 레이아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layerType="software"
+            android:src="@drawable/dot" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id = "@+id/pensize_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PenSize"
+            android:textSize="12sp"/>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/pensize_text" />
+
+        <Button
+            android:id="@+id/black_pen"
+            android:text="BLACK"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#00ff0000" />
+
+        <Button
+            android:id="@+id/red_pen"
+            android:text="RED"
+            android:textColor="#ffff0000"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#00ff0000" />
+
+        <Button
+            android:id="@+id/blue_pen"
+            android:text="BLUE"
+            android:textColor="#3F51B5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#00ff0000" />
+
+        <ImageButton
+            android:id="@+id/eraser_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#00ff0000"
+            android:scaleType="fitXY"
+            android:src="@drawable/eraser" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/drawview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

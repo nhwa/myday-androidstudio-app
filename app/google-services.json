@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "692680737939",
+    "firebase_url": "https://myday-b6bcc.firebaseio.com",
+    "project_id": "myday-b6bcc",
+    "storage_bucket": "myday-b6bcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692680737939:android:adfa3afa719fbbb5697966",
+        "android_client_info": {
+          "package_name": "com.example.myday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692680737939-sbnb9elq66tvocretq9reaeib91t73rl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myday",
+            "certificate_hash": "40320a9b8edda984d930b024e45ad0d8c1b420d5"
+          }
+        },
+        {
+          "client_id": "692680737939-3ifcid4pnlq3e8jt0q8l81djaakqm5ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi6FcRdZkxQcQ46iaLNjbfJH2P87TfPBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692680737939-3ifcid4pnlq3e8jt0q8l81djaakqm5ta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
