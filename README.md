@@ -47,8 +47,8 @@ Myday
    
 <p align="center">
 <img src="https://user-images.githubusercontent.com/44343908/223946080-0545c00a-b2c4-4662-9237-a47ae79eeaf0.png"  width="900" />   
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8de0465f-21be-468c-8d6a-9b6518803778/Untitled.png)
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cc66d366-d810-4dd0-9d78-34b8ff9fcdf0/Untitled.png)
+<img src="https://user-images.githubusercontent.com/44343908/224548338-fee9e673-aed3-456b-ac5c-8698a1404abb.png" width="450" />   
+<img src="https://user-images.githubusercontent.com/44343908/224548400-88f5c63b-baaa-4848-837e-08ccc96164c3.png" width="450" />   
 </p>
 
 <br />  
