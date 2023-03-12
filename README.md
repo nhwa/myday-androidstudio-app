@@ -3,6 +3,8 @@ Myday
 ### 매일을 기록하는 일기장 App 프로젝트
 일기를 매일 쓰기 어려워하는 사용자를 위해 알림기능과 그날의 기분을 감정으로 표현한 일기장 앱 개발 Project
 
+> Team Project
+
 #### Myday 기능
 - FIREBASE
 : Firebase 저장소를 사용하여 user tokenID로 데이터 저장 및 불러오기 구현
@@ -45,6 +47,8 @@ Myday
    
 <p align="center">
 <img src="https://user-images.githubusercontent.com/44343908/223946080-0545c00a-b2c4-4662-9237-a47ae79eeaf0.png"  width="900" />   
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8de0465f-21be-468c-8d6a-9b6518803778/Untitled.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cc66d366-d810-4dd0-9d78-34b8ff9fcdf0/Untitled.png)
 </p>
 
 <br />  
